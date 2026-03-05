@@ -1,0 +1,11 @@
+myvar="Darsh"
+my_var="Darsh"
+_my_var="Darsh"
+myVar="Darsh"
+MYVAR="Darsh"
+myvar2="Darsh"
+print(myvar)
+print(my_var)
+print(_my_var)
+print(MYVAR)
+print(myvar2)
