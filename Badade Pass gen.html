@@ -1,0 +1,24 @@
+<html>
+<body style="padding:100px;font-
+family:Arial;">
+<h2>Password Generator</h2>
+<button
+onclick="generate Pass()">Generate
+Password</button>
+<p id="password"></p>
+<script>
+function generatePass() {
+var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$% ;
+var pass = "";
+for (var i=0; i<8; i++) {
+pass +=
+chars.charAt(Math.floor(Math.random
+chars.length));
+}
+document.getElementById("passw
+.innerHTML = "Password: " + pass;
+}
+</script>
+</body>
+</html>
+
